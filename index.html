@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="image">
+      <br />
+      <nav>
+        <img class="logo" src="./logo.jpg" alt="logo" />
+        <h3>Budget</h3>
+      </nav>
+      <br />
+      <div id="big-contener">
+        <div class="contener">
+          <div class="contener1">
+            <h2>Income</h2>
+            <label for="text">Monthly Income :</label>
+            <br />
+            <input type="number" id="first-input" placeholder="Enter Income" />
+            <br />
+            <button class="button" id="button">Set</button>
+          </div>
+          <div class="contener2">
+            <h2>Expenses</h2>
+            <label for="text">Description :</label>
+            <br />
+            <input
+              type="text"
+              id="Second-input"
+              placeholder="Enter Description"
+            />
+            <br />
+            <label for="text">Expense Amount :</label>
+            <br />
+            <input type="number" id="Third-input" placeholder="Enter Amount" />
+            <br />
+            <button class="button">Add</button>
+          </div>
+        </div>
+        <div class="contener4">
+          <h2>Expense List</h2>
+          <ul id="list" class="list">
+            <!-- <li>
+              <b> Cash </b><span> <b>Rs400</b> </span>
+              <button class="delete-button">Cancel</button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="contener3">
+        <div class="small-contener">
+          <h2>Total</h2>
+          <h1 id="Total-Amount">Rs 0.00</h1>
+        </div>
+        <div class="small-contener">
+          <h2>remaining</h2>
+          <h1 id="remaining-Amount">Rs 0.00</h1>
+        </div>
+        <div class="small-contener">
+          <h2>Expense</h2>
+          <h1 id="Expense-Amount">Rs 0.00</h1>
+          <script src="./app.js"></script>
+        </div>
+
+        
+      </div>
+    </div>
+
+    
+  </body>
+</html>
